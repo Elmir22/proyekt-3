@@ -17,11 +17,9 @@ header {
   background-color: #212529;
   padding: 20px 0;
 }
-header .imgbox {
-  width: 150px;
-}
 header a {
   margin-right: 25px;
+  font-size: 26px;
 }
 header :hover {
   color: #ffc800;
