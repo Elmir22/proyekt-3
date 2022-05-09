@@ -11,4 +11,19 @@ body .imgbox img {
 
 section {
   padding: 50px 0;
+}
+
+header {
+  background-color: #212529;
+  padding: 20px 0;
+}
+header .imgbox {
+  width: 150px;
+}
+header a {
+  margin-right: 25px;
+}
+header :hover {
+  color: #ffc800;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
