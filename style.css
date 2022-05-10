@@ -16,12 +16,51 @@ section {
 header {
   background-color: #212529;
   padding: 20px 0;
+  z-index: 2;
 }
 header a {
   margin-right: 25px;
   font-size: 26px;
+  font-family: "Times New Roman", Times, serif;
 }
 header :hover {
   color: #ffc800;
   cursor: pointer;
+}
+
+#welcome {
+  padding: 100px 0;
+  background-image: url(assets/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#welcome h2 {
+  font-size: 50px;
+  font-weight: 500;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 150px;
+}
+#welcome h1 {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  margin: 40px 0;
+}
+#welcome h1:hover, #welcome h2:hover, #welcome h3:hover {
+  cursor: initial;
+}
+#welcome h1, #welcome h2, #welcome h3 {
+  color: #fff;
+}
+#welcome .btn {
+  padding: 10px 15px;
+  background-color: #ffc800;
+  font-size: 30px;
+  border-radius: 7px;
+  margin-bottom: 150px;
+}
+#welcome .btn:hover {
+  cursor: pointer;
+  background-color: #cea624;
 }/*# sourceMappingURL=style.css.map */
