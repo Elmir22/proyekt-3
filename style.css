@@ -110,6 +110,17 @@ header .box .icon {
 #welcome .btn:hover h3 {
   cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+  #welcome h2 {
+    font-size: 40px;
+  }
+  #welcome h1 {
+    font-size: 50px;
+  }
+  #welcome h3 {
+    font-size: 20px;
+  }
+}
 
 #services h1 {
   font-size: 60px;
@@ -146,4 +157,32 @@ header .box .icon {
   background-color: rgb(255, 200, 0);
   padding: 40px;
   border-radius: 50%;
+}
+@media screen and (max-width: 1024px) {
+  #services h1 {
+    font-size: 45px;
+  }
+  #services h2 {
+    font-size: 25px;
+  }
+  #services h4 {
+    font-size: 19px;
+  }
+  #services h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #services h1 {
+    font-size: 35px;
+  }
+  #services h2 {
+    font-size: 23px;
+  }
+  #services h4 {
+    font-size: 18px;
+  }
+  #services h3 {
+    font-size: 19px;
+  }
 }/*# sourceMappingURL=style.css.map */
