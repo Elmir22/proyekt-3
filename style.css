@@ -228,4 +228,34 @@ header .box .icon {
 #portfolio .icon:hover {
   opacity: 1;
   cursor: pointer;
+}
+
+#about {
+  padding: 100px 0;
+}
+#about h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#about h3 {
+  color: #6c757d;
+  font-size: 24px;
+  font-style: italic;
+  margin: 20px 0 30px;
+}
+#about .imgbox {
+  border: 7px solid #e9ecef;
+  border-radius: 50%;
+  width: 170px;
+}
+#about .textbox {
+  text-align: center;
+  width: 400px;
+}
+#about .txtleft {
+  text-align: left;
+}
+#about .txtright {
+  text-align: right;
 }/*# sourceMappingURL=style.css.map */
