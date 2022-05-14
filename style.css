@@ -327,4 +327,14 @@ header .box .icon {
 }
 #team h5 {
   margin: 20px 70px;
+}
+
+#google .imgbox {
+  width: 180px;
+}
+#google .imgbox img:hover {
+  cursor: pointer;
+}
+#google .img4 {
+  width: 130px;
 }/*# sourceMappingURL=style.css.map */
