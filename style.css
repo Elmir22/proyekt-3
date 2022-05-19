@@ -131,6 +131,17 @@ header .box .icon {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 400px) {
+  #welcome h2 {
+    font-size: 30px;
+  }
+  #welcome h1 {
+    font-size: 40px;
+  }
+  #welcome h3 {
+    font-size: 18px;
+  }
+}
 
 #services h1 {
   font-size: 60px;
