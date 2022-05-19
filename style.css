@@ -206,7 +206,6 @@ header .box .icon {
 }
 
 #portfolio h1 {
-  color: #000;
   font-size: 60px;
   font-weight: 700;
 }
@@ -242,7 +241,6 @@ header .box .icon {
   color: #fff;
   font-size: 60px;
   top: 0;
-  right: 0;
   background-color: rgba(255, 200, 0, 0.9);
 }
 #portfolio .icon:hover {
