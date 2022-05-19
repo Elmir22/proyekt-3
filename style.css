@@ -22,9 +22,7 @@ header {
   padding: 20px 0;
   z-index: 2;
   position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
+  width: 100%;
 }
 header a {
   margin-right: 25px;
@@ -59,27 +57,37 @@ header .box .icon {
   }
 }
 @media screen and (min-width: 1024px) {
-  header .menu {
-    display: flex;
-    justify-content: space-between;
-  }
   header .box {
     display: none;
     position: absolute;
     right: 0;
     opacity: 0;
   }
+  header .box h1, header .box .icon {
+    display: none;
+  }
   header nav {
     display: block;
   }
   header nav a {
-    font-size: 20px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .imgbox {
+    width: 200px;
+  }
+  header .box {
+    padding: 5px;
+  }
+  header .box .icon, header .box h1 {
+    font-size: 18px;
   }
 }
 
 #welcome {
   padding: 100px 0;
-  background-image: url(assets/header-bg.jpg);
+  background-image: url("assets/header-bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -360,7 +368,6 @@ header .box .icon {
   margin: 25px 0 20px 100px;
 }
 #contact li input {
-  width: 500px;
   padding: 19px 15px;
   border-radius: 7px;
   font-weight: 700;

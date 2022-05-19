@@ -2,17 +2,15 @@ header
     background-color: #212529
     padding: 20px 0
     z-index: 2
+    position: fixed
+    width: 100%
     a
         margin-right: 25px
         font-size: 23px
         font-family: 'Times New Roman', Times, serif
-    & :hover 
+    & :hover
         color: #ffc800
         cursor: pointer
-    position: fixed
-    top: 0
-    right: 0
-    left: 0
     .box
         border: 1px solid rgba(255, 255, 255, 0.1)
         padding: 12px
@@ -31,16 +29,21 @@ header
         .box
             display: block
     @media screen and ( min-width: 1024px )
-        .menu
-            display: flex
-            justify-content: space-between
         .box
             display: none
             position: absolute
             right: 0
             opacity: 0
+            h1,.icon
+                display: none
         nav
             display: block
             a
-                font-size: 20px
-        
+                font-size: 22px
+    @media screen and ( max-width: 500px )
+        .imgbox
+            width: 200px
+        .box
+            padding: 5px
+            .icon,h1 
+                font-size: 18px
