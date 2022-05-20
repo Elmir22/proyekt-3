@@ -495,4 +495,9 @@ footer li:hover, footer i:hover {
 }
 footer h2 {
   margin-right: 30px;
+}
+@media screen and (max-width: 400px) {
+  footer h1, footer h2, footer h3 {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=style.css.map */
