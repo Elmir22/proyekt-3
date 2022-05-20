@@ -433,7 +433,6 @@ header .box .icon {
 #contact {
   background-color: #212529;
   background-image: url(assets/map-image.png);
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -450,13 +449,19 @@ header .box .icon {
   font-weight: 500;
   margin: 15px 0 50px;
 }
+#contact ul, #contact input {
+  width: 100%;
+}
 #contact li {
-  margin: 25px 0 20px 100px;
+  margin: 25px 0 20px;
 }
 #contact li input {
   padding: 19px 15px;
   border-radius: 7px;
   font-weight: 700;
+}
+#contact .textarea, #contact textarea {
+  width: 100%;
 }
 #contact textarea {
   border-radius: 7px;
@@ -471,6 +476,14 @@ header .box .icon {
   font-weight: 600;
   margin-top: 20px;
   opacity: 0.6;
+}
+@media screen and (max-width: 400px) {
+  #contact h1 {
+    font-size: 30px;
+  }
+  #contact h3 {
+    font-size: 23px;
+  }
 }
 
 footer {
