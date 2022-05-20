@@ -357,7 +357,6 @@ header .box .icon {
 }
 #team .textbox {
   text-align: center;
-  padding-right: 60px;
 }
 #team .textbox h2 {
   font-size: 48px;
@@ -391,6 +390,34 @@ header .box .icon {
 }
 #team h5 {
   margin: 20px 70px;
+}
+@media screen and (max-width: 500px) {
+  #team h3, #team h4, #team h5 {
+    font-size: 23px;
+  }
+  #team h1 {
+    font-size: 36px;
+  }
+  #team .textbox h2 {
+    font-size: 30px;
+  }
+  #team .imgbox {
+    width: 270px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #team h3, #team h4, #team h5 {
+    font-size: 25px;
+  }
+  #team h1 {
+    font-size: 42px;
+  }
+  #team .textbox h2 {
+    font-size: 36px;
+  }
+  #team .imgbox {
+    width: 300px;
+  }
 }
 
 #google .imgbox {
