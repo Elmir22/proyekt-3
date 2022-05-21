@@ -91,33 +91,31 @@ header .box .icon {
   background-size: cover;
   background-position: center;
 }
-#welcome h2 {
+#welcome .box {
+  height: 100vh;
+}
+#welcome .box h2 {
   font-size: 50px;
   font-weight: 500;
-  font-style: italic;
-  font-family: "Times New Roman", Times, serif;
-  margin-top: 150px;
 }
-#welcome h1 {
+#welcome .box h1 {
   font-size: 60px;
   font-weight: 700;
-  font-family: "Times New Roman", Times, serif;
   margin: 40px 0;
 }
-#welcome h1, #welcome h2, #welcome h3 {
+#welcome .box h1, #welcome .box h2, #welcome .box h3 {
   color: #fff;
 }
-#welcome .btn {
+#welcome .box .btn {
   padding: 10px 15px;
   background-color: #ffc800;
   font-size: 30px;
   border-radius: 7px;
-  margin-bottom: 150px;
 }
-#welcome .btn:hover {
+#welcome .box .btn:hover {
   background-color: #cea624;
 }
-#welcome .btn:hover h3 {
+#welcome .box .btn:hover h3 {
   cursor: pointer;
 }
 @media screen and (max-width: 600px) {
