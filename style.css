@@ -27,7 +27,6 @@ header {
 header a {
   margin-right: 25px;
   font-size: 23px;
-  font-family: "Times New Roman", Times, serif;
 }
 header :hover {
   color: #ffc800;
@@ -42,7 +41,6 @@ header .box h1 {
   color: rgba(255, 255, 255, 0.55);
   font-size: 25px;
   margin-right: 10px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 header .box .icon {
   font-size: 25px;
@@ -146,24 +144,20 @@ header .box .icon {
   font-weight: 700;
 }
 #services h3 {
-  font-size: 22px;
-  font-style: italic;
+  font-size: 26px;
   color: #6c757d;
   margin: 30px 0 50px;
 }
 #services h2 {
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 700;
   margin: 20px 0;
 }
 #services h4 {
-  font-size: 21px;
+  font-size: 24px;
   color: #6c757d;
   margin: 30px 0;
   line-height: 1.7;
-}
-#services h1, #services h2, #services h3, #services h4 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #services .icon {
   font-size: 80px;
@@ -176,30 +170,30 @@ header .box .icon {
 }
 @media screen and (max-width: 1200px) {
   #services h1 {
-    font-size: 45px;
+    font-size: 55px;
   }
   #services h2 {
-    font-size: 23px;
+    font-size: 30px;
   }
   #services h4 {
-    font-size: 19px;
+    font-size: 24px;
   }
   #services h3 {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 500px) {
   #services h1 {
-    font-size: 35px;
+    font-size: 45px;
   }
   #services h2 {
-    font-size: 22px;
+    font-size: 25px;
   }
   #services h4 {
-    font-size: 18px;
+    font-size: 23px;
   }
   #services h3 {
-    font-size: 19px;
+    font-size: 24px;
   }
 }
 
@@ -209,7 +203,6 @@ header .box .icon {
 }
 #portfolio h3 {
   color: #6c757d;
-  font-style: italic;
   font-size: 25px;
   margin: 15px 0 50px;
 }
@@ -220,9 +213,6 @@ header .box .icon {
   font-size: 40px;
   font-weight: 700;
   margin-top: 25px;
-}
-#portfolio h1, #portfolio h2, #portfolio h3 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #portfolio .imgbox {
   position: relative;
@@ -272,7 +262,6 @@ header .box .icon {
 #about h3 {
   color: #6c757d;
   font-size: 28px;
-  font-style: italic;
   margin: 20px 0 30px;
 }
 #about .imgbox {
@@ -292,9 +281,6 @@ header .box .icon {
 }
 #about .txtright {
   text-align: right;
-}
-#about h1, #about h2, #about h4, #about h5 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #about .btn {
   border: 7px solid #e9ecef;
@@ -345,7 +331,6 @@ header .box .icon {
   font-weight: 700;
 }
 #team h3 {
-  font-style: italic;
   margin: 20px 0 60px;
 }
 #team .imgbox {
@@ -365,11 +350,8 @@ header .box .icon {
   margin: 15px 0;
 }
 #team h3, #team h4, #team h5 {
-  font-size: 26px;
+  font-size: 28px;
   color: #6c757d;
-}
-#team h1, #team h2, #team h3, #team h4, #team h5 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #team ul {
   margin-bottom: 40px;
@@ -391,13 +373,13 @@ header .box .icon {
 }
 @media screen and (max-width: 500px) {
   #team h3, #team h4, #team h5 {
-    font-size: 23px;
+    font-size: 24px;
   }
   #team h1 {
     font-size: 36px;
   }
   #team .textbox h2 {
-    font-size: 30px;
+    font-size: 32px;
   }
   #team .imgbox {
     width: 270px;
@@ -405,13 +387,13 @@ header .box .icon {
 }
 @media screen and (min-width: 992px) {
   #team h3, #team h4, #team h5 {
-    font-size: 25px;
+    font-size: 26px;
   }
   #team h1 {
-    font-size: 42px;
+    font-size: 45px;
   }
   #team .textbox h2 {
-    font-size: 36px;
+    font-size: 38px;
   }
   #team .imgbox {
     width: 300px;
@@ -436,13 +418,11 @@ header .box .icon {
 }
 #contact h1 {
   font-weight: 700;
-  font-size: 50px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 60px;
   color: #fff;
 }
 #contact h3 {
-  font-size: 25px;
-  font-style: italic;
+  font-size: 30px;
   color: #6c757d;
   font-weight: 500;
   margin: 15px 0 50px;
@@ -457,11 +437,13 @@ header .box .icon {
   padding: 19px 15px;
   border-radius: 7px;
   font-weight: 700;
+  font-size: 24px;
 }
 #contact .textarea, #contact textarea {
   width: 100%;
 }
 #contact textarea {
+  font-size: 24px;
   border-radius: 7px;
   font-weight: 700;
   padding: 20px 0 0 20px;
@@ -470,7 +452,7 @@ header .box .icon {
   padding: 12px 22px;
   background-color: #ffc800;
   color: #fff;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
   font-weight: 600;
   margin-top: 20px;
   opacity: 0.6;
@@ -482,14 +464,19 @@ header .box .icon {
   #contact h3 {
     font-size: 23px;
   }
+  #contact li input {
+    font-size: 20px;
+  }
+  #contact textarea {
+    font-size: 20px;
+  }
 }
 
 footer {
   padding: 30px 0;
 }
 footer h1, footer h2, footer h3 {
-  font-size: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 28px;
 }
 footer ul {
   display: flex;
@@ -509,6 +496,6 @@ footer h2 {
 }
 @media screen and (max-width: 400px) {
   footer h1, footer h2, footer h3 {
-    font-size: 18px;
+    font-size: 24px;
   }
 }/*# sourceMappingURL=style.css.map */
