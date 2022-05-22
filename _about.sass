@@ -9,9 +9,11 @@
         margin: 20px 0 30px
     .imgbox
         border: 7px solid #e9ecef
-        border-radius: 100%
+        border-radius: 50%
         width: 195px
+        margin: 0 -5px
     .textbox
+        width: 43%
         h2
             font-weight: 700
             font-size: 30px
@@ -22,14 +24,20 @@
             color: #6c757d
     .txtright
         text-align: right
-    .btn
-        border: 7px solid #e9ecef
-        border-radius: 50%
-        padding: 32px 54px
-        color: #fff
-        background-color: #ffc800
-        font-size: 24px
-        font-weight: 700
+        padding-right: 40px
+    .txtleft
+        padding-left: 40px
+    .btnbox
+        display: flex
+        justify-content: center
+        .btn
+            border: 7px solid #e9ecef
+            border-radius: 50%
+            padding: 32px 54px
+            color: #fff
+            background-color: #ffc800
+            font-size: 24px
+            font-weight: 700
     @media screen and ( max-width: 500px )
         h1
             font-size: 30px
@@ -54,3 +62,50 @@
                 font-size: 24px
         .imgbox
             width: 180px
+    @media screen and ( max-width: 767px )
+        .box1,.box3
+            flex-direction: row-reverse
+        .textbox
+            width: auto
+            text-align: left
+            padding-left: 15px
+        .txtleft
+            padding-left: 20px
+        .txtright
+            padding-right: 0
+        .imgbox
+            width: 90px
+        .btnbox
+            display: flex
+            justify-content: start
+            .btn
+                padding: 12px 22px
+                font-size: x-small
+    @media screen and ( min-width: 768px )
+        .imgbox
+            margin: 0 -40px
+        .txtright
+            padding-right: 56px
+        .txtleft
+            padding-left: 56px
+    @media screen and ( min-width: 992px )
+        .imgbox
+            margin: 0 -33px
+        .txtright
+            padding-right: 54px
+        .txtleft
+            padding-left: 54px
+    @media screen and ( min-width: 1200px )
+        .imgbox
+            margin: 0 -23px
+        .txtright
+            padding-right: 50px
+        .txtleft
+            padding-left: 50px
+    @media screen and ( min-width: 1400px )
+        .imgbox
+            margin: 0 -8px
+        .txtright
+            padding-right: 40px
+        .txtleft
+            padding-left: 40px
