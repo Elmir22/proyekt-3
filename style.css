@@ -116,26 +116,26 @@ header .box .icon {
 #welcome .box .btn:hover h3 {
   cursor: pointer;
 }
-@media screen and (max-width: 600px) {
-  #welcome h2 {
-    font-size: 40px;
-  }
-  #welcome h1 {
-    font-size: 50px;
-  }
-  #welcome h3 {
-    font-size: 20px;
-  }
-}
 @media screen and (max-width: 400px) {
-  #welcome h2 {
+  #welcome .box h2 {
     font-size: 30px;
   }
-  #welcome h1 {
+  #welcome .box h1 {
+    font-size: 35px;
+  }
+  #welcome .box h3 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #welcome .box h2 {
     font-size: 40px;
   }
-  #welcome h3 {
-    font-size: 18px;
+  #welcome .box h1 {
+    font-size: 50px;
+  }
+  #welcome .box h3 {
+    font-size: 20px;
   }
 }
 
