@@ -2,9 +2,6 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-body h1:hover, body h2:hover, body h3:hover, body h4:hover, body h5:hover, body h6:hover, body p:hover {
-  cursor: initial;
-}
 body .imgbox {
   overflow: hidden;
 }
