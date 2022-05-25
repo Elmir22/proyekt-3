@@ -214,7 +214,7 @@ header .box .icon {
   position: relative;
   z-index: 1;
 }
-#portfolio .icon {
+#portfolio .overlay {
   opacity: 0;
   display: flex;
   justify-content: center;
@@ -226,8 +226,9 @@ header .box .icon {
   font-size: 60px;
   top: 0;
   background-color: rgba(255, 200, 0, 0.9);
+  transition: 1s;
 }
-#portfolio .icon:hover {
+#portfolio .overlay:hover {
   opacity: 1;
   cursor: pointer;
 }
