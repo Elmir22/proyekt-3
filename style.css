@@ -511,7 +511,7 @@ header .box .icon {
   width: 100%;
 }
 #contact input {
-  margin: 10px 0 15px;
+  margin: 12px 0;
   padding: 19px 15px;
   border-radius: 7px;
   font-weight: 700;
@@ -542,7 +542,7 @@ header .box .icon {
   #contact h3 {
     font-size: 23px;
   }
-  #contact li input {
+  #contact input {
     font-size: 20px;
   }
   #contact textarea {
@@ -572,13 +572,13 @@ footer li:hover, footer i:hover {
 footer h2 {
   margin-right: 30px;
 }
-@media screen and (max-width: 400px) {
-  footer h1, footer h2, footer h3 {
-    font-size: 24px;
-  }
-}
 @media screen and (max-width: 314px) {
   footer h1, footer h2, footer h3 {
     font-size: 22px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  footer h1, footer h2, footer h3 {
+    font-size: 24px;
   }
 }/*# sourceMappingURL=style.css.map */
