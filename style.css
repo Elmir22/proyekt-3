@@ -507,13 +507,11 @@ header .box .icon {
   font-weight: 500;
   margin: 15px 0 50px;
 }
-#contact ul, #contact input {
+#contact .box, #contact input {
   width: 100%;
 }
-#contact li {
-  margin: 25px 0 20px;
-}
-#contact li input {
+#contact input {
+  margin: 10px 0 15px;
   padding: 19px 15px;
   border-radius: 7px;
   font-weight: 700;
