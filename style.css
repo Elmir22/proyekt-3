@@ -576,4 +576,9 @@ footer h2 {
   footer h1, footer h2, footer h3 {
     font-size: 24px;
   }
+}
+@media screen and (max-width: 314px) {
+  footer h1, footer h2, footer h3 {
+    font-size: 22px;
+  }
 }/*# sourceMappingURL=style.css.map */
