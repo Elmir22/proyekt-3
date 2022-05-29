@@ -67,7 +67,7 @@ header .box .icon {
     font-size: 22px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
   header .imgbox {
     width: 200px;
   }
