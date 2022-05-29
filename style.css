@@ -483,13 +483,13 @@ header .box .icon {
   }
 }
 
-#google .imgbox {
+#companies .imgbox {
   width: 180px;
 }
-#google .imgbox img:hover {
+#companies .imgbox img:hover {
   cursor: pointer;
 }
-#google .img4 {
+#companies .img4 {
   width: 130px;
 }
 
