@@ -303,7 +303,7 @@ header .box .icon {
   font-size: 24px;
   font-weight: 700;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
   #about h1 {
     font-size: 30px;
   }
@@ -454,7 +454,7 @@ header .box .icon {
 #team h5 {
   margin: 20px 70px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
   #team h3, #team h4, #team h5 {
     font-size: 24px;
   }
@@ -536,7 +536,7 @@ header .box .icon {
   margin-top: 20px;
   opacity: 0.6;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 576px) {
   #contact h1 {
     font-size: 30px;
   }
