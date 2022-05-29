@@ -520,10 +520,8 @@ header .box .icon {
   font-weight: 700;
   font-size: 24px;
 }
-#contact .textarea, #contact textarea {
-  width: 100%;
-}
 #contact textarea {
+  width: 100%;
   font-size: 24px;
   border-radius: 7px;
   font-weight: 700;
