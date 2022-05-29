@@ -164,6 +164,9 @@ header .box .icon {
   padding: 40px;
   border-radius: 50%;
 }
+#services .box i {
+  padding: 40px 50px;
+}
 @media screen and (max-width: 1200px) {
   #services h1 {
     font-size: 55px;
