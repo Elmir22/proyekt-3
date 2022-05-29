@@ -181,7 +181,7 @@ header .box .icon {
     font-size: 25px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
   #services h1 {
     font-size: 45px;
   }
