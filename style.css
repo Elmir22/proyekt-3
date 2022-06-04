@@ -290,14 +290,14 @@ header .box .icon {
 #about .txtleft {
   padding-left: 40px;
 }
-#about .btnbox {
+#about .yellowbox {
   display: flex;
   justify-content: center;
 }
-#about .btnbox .btn {
+#about .yellowbox .txt {
   border: 7px solid #e9ecef;
   border-radius: 50%;
-  padding: 32px 54px;
+  padding: 49px 55px;
   color: #fff;
   background-color: #ffc800;
   font-size: 24px;
@@ -355,12 +355,12 @@ header .box .icon {
   #about .imgbox {
     width: 90px;
   }
-  #about .btnbox {
+  #about .yellowbox {
     display: flex;
     justify-content: start;
   }
-  #about .btnbox .btn {
-    padding: 12px 22px;
+  #about .yellowbox .txt {
+    padding: 22px 26px;
     font-size: x-small;
   }
 }
